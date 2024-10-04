@@ -30,7 +30,7 @@ class _BottonavbarState extends State<Bottomnavbar> {
             FloatingActionButtonLocation.miniCenterDocked,
         floatingActionButton: ElevatedButton(
           onPressed: () {
-            showBottomSheet(
+            showModalBottomSheet(
               backgroundColor: Colors.transparent,
               context: context,
               builder: (BuildContext context) {
